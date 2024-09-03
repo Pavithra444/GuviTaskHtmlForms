@@ -1,0 +1,46 @@
+.headline{
+   text-align: center;
+   display: inline-block;
+   position: relative;
+   background-color: powderblue;
+   height:auto;
+   width: 100%;
+   border-style: groove;
+}
+.MainDiv{
+   background-color: powderblue;
+   height:auto;
+   width: 100%;
+   border-style: groove;
+   display:flex;
+   position: relative;
+   margin: 0%;
+   text-align: left;
+   justify-content:flex-start;
+   flex-direction: column;
+   
+}
+textarea{
+   font-family:'Times New Roman', Times, serif;
+}
+.buttonDiv{
+   text-align: center;
+   display: flex;
+   position: relative;
+   background-color: rgb(251, 197, 247);
+   height:50px;
+   width: 100px;
+   align-items: center;
+}
+#itemtable{
+   border-style: groove;
+   border-color: chocolate;
+   border-collapse: collapse;
+   width: 100%;
+   background-color: powderblue;
+   th, td {
+      border: 1px solid rgb(244, 150, 62);
+      padding: 3px;
+      text-align: left;
+  }
+}
